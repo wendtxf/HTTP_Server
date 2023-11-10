@@ -19,7 +19,7 @@ int main(){
         printf(" ===========\n\n");
 
         printf("Inicialização Concluída!\n\n");
-        system("hostname; hostname -I; echo Service: 8000; echo");
+        system("hostname; hostname -I | cut -f1 -d' '; echo Service: 8000; echo");
         printf("Listando...\n");
 
         system("tree /mnt/c/Users/'Wendell Freitas'/Nextcloud/Ferramentas");
@@ -38,7 +38,7 @@ int main(){
         printf(" ===========\n\n");
 
         printf("Inicialização Concluída!\n\n");
-        system("hostname; hostname -I; echo Service: 8000; echo");
+        system("hostname; hostname -I | cut -f1 -d' '; echo Service: 8000; echo");
     }
 
   //   ip -4 addr show wifi0 | grep -oP '(?<=inet/s)/d+(/./d+){3}'");
