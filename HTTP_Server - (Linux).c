@@ -19,10 +19,10 @@ int main(){
         printf(" ===========\n\n");
 
         printf("Inicialização Concluída!\n\n");
-        system("hostname; hostname -I; echo Service: 8000; echo");
+        system("hostname; hostname -I | cut -f1 -d' '; echo Service: 8000; echo");
         printf("Listando...\n");
 
-        system("tree /mnt/c/Users/'Wendell Freitas'/Nextcloud/Ferramentas");
+        system("tree /mnt/c/Users/'wendtxf'/Nextcloud/Ferramentas");
     }else if(tree == 'n' || tree == 'N'){
         system("clear");
         printf("===========");
@@ -38,11 +38,11 @@ int main(){
         printf(" ===========\n\n");
 
         printf("Inicialização Concluída!\n\n");
-        system("hostname; hostname -I; echo Service: 8000; echo");
+        system("hostname; hostname -I | cut -f1 -d' '; echo Service: 8000; echo");
     }
 
   //   ip -4 addr show wifi0 | grep -oP '(?<=inet/s)/d+(/./d+){3}'");
 
-    system("cd /mnt/c/Users/'Wendell Freitas'/Nextcloud/Ferramentas; python3 -m http.server");
+    system("python3 -m http.server -d /mnt/c/Users/'wendtxf'/Nextcloud/Ferramentas");
     system("clear");
 }
