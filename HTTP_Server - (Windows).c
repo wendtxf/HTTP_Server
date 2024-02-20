@@ -52,6 +52,8 @@ int main(){
   //   ip -4 addr show wifi0 | grep -oP '(?<=inet/s)/d+(/./d+){3}'");
 
     printf("\n");
-    system("python3 -m http.server -d C:/Users/wendtxf/Nextcloud/Ferramentas");
+    system("python3 -m http.server -d \"G:/Meu Drive/Ferramentas\"");
     system("cls");
+
+    return 0;
 }
