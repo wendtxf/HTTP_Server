@@ -10,7 +10,7 @@ int main(){
     printf("===========");
     printf(" HTTP Server");
     printf(" ===========\n\n");
-    printf("Listar ?rvore de Diret?rios? (S/N): ");
+    printf("Listar Árvore de Diretórios? (S/N): ");
     scanf("%s",&tree);
     printf("\n");
 
@@ -20,33 +20,33 @@ int main(){
         printf(" HTTP Server");
         printf(" ===========\n\n");
 
-        printf("InicializaÃ§Ã£o ConcluÃ­da!\n\n");
+        printf("Inicialização Concluída!\n\n");
         system("   hostname");
         system("ipconfig | findstr /i IPv4");
-        system("echo    ServiÃ§o Porta. . . . . . . .  . . . . . . . : 8000");
+        system("echo Serviço Porta. . . . . . . .  . . . . . . . : 8000");
         printf("\n");
         printf("Listando...\n");
-        system("tree C:/Users/wendtxf/Nextcloud/Ferramentas");
+        system("tree \"G:/Meu Drive/Ferramentas\"");
     }else if(tree == 'n' || tree == 'N'){
         system("cls");
         printf("===========");
         printf(" HTTP Server");
         printf(" ===========\n\n");
 
-        printf("InicializaÃ§Ã£o ConcluÃ­da!\n\n");
+        printf("Inicialização Concluída!\n\n");
         system("   hostname");
         system("ipconfig | findstr /i IPv4");
-        system("echo    ServiÃ§o Porta. . . . . . . .  . . . . . . . : 8000");
+        system("echo Serviço Porta. . . . . . . .  . . . . . . . : 8000");
     }else{
         system("cls");
         printf("===========");
         printf(" HTTP Server");
         printf(" ===========\n\n");
 
-        printf("InicializaÃ§Ã£o ConcluÃ­da!\n\n");
+        printf("Inicialização Concluída!\n\n");
         system("   hostname");
         system("ipconfig | findstr /i IPv4");
-        system("echo    ServiÃ§o Porta. . . . . . . .  . . . . . . . : 8000");
+        system("echo Serviço Porta. . . . . . . .  . . . . . . . : 8000");
     }
 
   //   ip -4 addr show wifi0 | grep -oP '(?<=inet/s)/d+(/./d+){3}'");
