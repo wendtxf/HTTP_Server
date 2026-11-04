@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 Clear-Host
-$directory = 'E:\test'
+$directory = '' ##INFONRME O DIRETÓRIO QUE DESEJA COMPARTILHAR LOCALMENTE
 $defaultPort = 8000
 
 Write-Host ('=' * 68) -ForegroundColor DarkCyan
